@@ -2,7 +2,6 @@
 
 let getal=parseInt(window.prompt("Geef een getal:"));
 
-for (let i=1;i<=100;i++){
-    getal = getal * i++
+for (let i=1;i<=100;i+=getal){
     console.log(i)
 }
