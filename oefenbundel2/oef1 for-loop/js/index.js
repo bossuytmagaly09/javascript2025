@@ -2,5 +2,12 @@
 //Schrijf vervolgens het totaal van alle ingegeven getallen op het scherm
 
 let getallen=parseInt(window.prompt("Hoeveel getallen wenst u?"));
-let getal=parseInt(window.prompt("Geef een getal in"))
+let getal1 =parseInt(window.prompt("Geef een getal in"));
+let getal2 =parseInt(window.prompt("Geef een getal in"));
+let getal3 =parseInt(window.prompt("Geef een getal in"));
+let som=0;
+
+
+
+
 
