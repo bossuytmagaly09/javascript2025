@@ -7,6 +7,12 @@ let getal2 =parseInt(window.prompt("Geef een getal in"));
 let getal3 =parseInt(window.prompt("Geef een getal in"));
 let som=0;
 
+for (let i=1;i>=getallen;i++){
+    som = som + i;
+}
+console.log(`som: ${getal1 + getal2 + getal3}`);
+
+
 
 
 
