@@ -3,10 +3,10 @@
 
 for (let i=1;i<=aantalLijnen;i=i+1) {
     sterretje = sterretje + "*"
-        console.log(sterretje);
+        console.log("*".repeat(i));
 }
- for (let j =1;j<=aantalLijnen;j=j+1) {
+ for (let j =aantalLijnen-1;j>=1;j--) {
      sterretje = sterretje - "*"
-     console.log(sterretje);
+     console.log("*".repeat(j));
  }
 

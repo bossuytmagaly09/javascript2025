@@ -1,6 +1,7 @@
-//print de machten van 2: gebruik een for-loop om de machten van 2 te printen te beginnen bij 1, tot de macht groter is dan 1000
+/*print de priemgetallen: gebruik een for-loop om alle priemgetallen van 1 tot 10 te printen
+ */
 
-for (let i=1;i<=1000;i++){
-    if(i**2<=1000)
-        console.log(i);
+for (let i=2;i<=100;i++){
+    //nummer 2 in plaats van 1 want 1 hoort niet in de reeks priemgetallen(wiki)
+
 }
