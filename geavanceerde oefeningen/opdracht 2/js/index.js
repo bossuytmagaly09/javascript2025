@@ -1,15 +1,19 @@
 /* Bereken de faculteit van een getal: vraag een getal aan de gerbuiker en gebruik een for-loop om de faculteit van dat getal te berekenen
  */
-let getal=parseInt(window.prompt("Geef een getal in:"));
-function berekenFaculteit(getal){
-    if (getal<0){
-        return "faculteit kan niet worden berekend op negatieve getallen";
-    }
-    let faculteit=1;
-    for (let i=1;i<=getal;i++){
-        faculteit *= i;
-    }
-    return faculteit
+
+
+let getal=parseInt(prompt("Geef een getal in:"));
+
+//oplossing 1
+//let nieuwGetal=1;
+//for (let i=1;i<=getal;i++){
+//    nieuwGetal = nieuwGetal * i;
+//}
+//console.log(nieuwGetal);
+
+
+let nieuwGetal=1;
+for (let i=getal;i>=1;i--){
+    nieuwGetal = nieuwGetal * i;
 }
-let resultaat = berekenFaculteit(getal);
-console.log(`de faculteit van ${getal} is ${resultaat}`)
+console.log(nieuwGetal);
