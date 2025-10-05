@@ -1,5 +1,10 @@
-/*Schrijf een programma die je alle poteniële mogelijke geeft in 2-decimale vorm uitprint met een komma er tussen tot en met 99 */
+/*schrijf een programma die faculteit van een getal weergeeft
+ */
 
-for (let i=1;i<=100;i++){
+let getal=parseInt(prompt("Geef een getal in:"));
 
+let nieuwGetal=1;
+for (let i=1;i<=getal;i++){
+    nieuwGetal = nieuwGetal * i;
 }
+console.log(nieuwGetal)
