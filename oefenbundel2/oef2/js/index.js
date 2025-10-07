@@ -19,6 +19,8 @@ if (leeftijd>=18){
         alert("te betalen bedrag is €8")
     }else if (bullitIn===2){
         alert("te betalen bedrag is €4")
+    }else{
+        alert("geen geldig nummer")
     }
 }else{
     console.log("Om deel te nemen aan de spelen van de Nationale Loterij moet je minimum 18 jaar zijn")
